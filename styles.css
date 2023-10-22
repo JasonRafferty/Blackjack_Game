@@ -1,0 +1,133 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-image: url("Images/background.jpg");
+  background-size: cover;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1 {
+  font-size: 80pt;
+  color: #d79a1f;
+  font-weight: bold;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 80pt;
+}
+
+h2 {
+  font-size: 30pt;
+  color: #ffffff;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+    2px 2px 0 #000;
+  position: absolute;
+  top: -95px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.cardContainerShared img {
+  width: 200px;
+  height: auto;
+}
+
+.cardContainerPlayer {
+  display: inline-flex;
+  margin-right: 100px;
+  position: relative;
+}
+
+.cardContainerPlayer img {
+  margin-left: 15px;
+}
+
+.cardContainerDealer {
+  display: inline-flex;
+  margin-left: 100px;
+  position: relative;
+}
+
+.cardContainerDealer img {
+  margin-right: 15px;
+}
+
+.cardCounter {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 45pt;
+  color: white;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
+
+.cardCounterPlayer {
+  display: inline-flex;
+  margin-right: 290px;
+  position: relative;
+  top: -30px;
+}
+.cardCounterDealer {
+  display: inline-flex;
+  margin-left: 290px;
+  position: relative;
+  top: -30px;
+}
+
+.moneyCounter {
+  background-color: rgba(51, 51, 51, 0.7);
+  border-radius: 30px;
+  padding: 10px;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 26px;
+  width: 260px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  font-size: 50pt;
+  margin-top: -60pt;
+  margin-bottom: 25pt;
+  transition: color 0.3s;
+}
+
+button {
+  font-size: 17pt;
+  position: relative;
+  width: 180px;
+  border: none;
+  background: rgb(231, 15, 15);
+  color: #fff;
+  padding: 1em;
+  font-weight: bold;
+  transition: 0.2s;
+  border-radius: 5px;
+  opacity: 0.8;
+  letter-spacing: 1px;
+  box-shadow: #a11907 0px 7px 2px, #000 0px 8px 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0 5pt;
+  margin-top: 10pt;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+button:active {
+  top: 4px;
+  box-shadow: #5e0b05 0px 3px 2px, #000 0px 3px 5px;
+  color: #79560f;
+}
